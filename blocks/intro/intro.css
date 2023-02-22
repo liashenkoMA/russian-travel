@@ -1,0 +1,11 @@
+.intro {  
+  padding-top: 92px;
+  margin: 0 auto;
+
+  max-width: 984px;
+  max-height: 429px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

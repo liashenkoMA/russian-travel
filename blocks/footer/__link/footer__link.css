@@ -1,0 +1,13 @@
+.footer__link {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #fff;
+}
+
+.footer__link:nth-child(n+1) {
+  padding-right: 18px;
+}

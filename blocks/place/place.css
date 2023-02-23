@@ -1,0 +1,11 @@
+.place {
+  max-width: 984px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.place:nth-child(n+2) {
+  padding-top: 80px;
+}

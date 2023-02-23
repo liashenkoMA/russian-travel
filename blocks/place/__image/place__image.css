@@ -1,0 +1,10 @@
+.place__image {
+  padding-top: 48px;
+  padding-right: 40px;
+  box-sizing: border-box;
+
+  width: 100%;
+
+  grid-row: 2;
+  grid-column: 1;
+}

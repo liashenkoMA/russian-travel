@@ -1,0 +1,10 @@
+.place__website {
+  width: 456px;
+
+  grid-row: 1;
+  grid-column: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}

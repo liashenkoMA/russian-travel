@@ -16,7 +16,7 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .place__title {
-    padding-right: 32x;
+    padding-right: 32px;
 
     max-width: 440px;
   }

@@ -21,7 +21,7 @@
 
 @media (min-width: 425px) and (max-width: 767px) {
   .footer {
-    padding-top: 64px;  
+    padding-top: 64px;
     max-width: 400px;
 
     display: flex;
@@ -31,7 +31,7 @@
 
 @media (min-width: 320px) and (max-width: 424px) {
   .footer {
-    padding-top: 64px; 
+    padding-top: 64px;
     max-width: 288px;
 
     display: flex;

@@ -7,3 +7,8 @@
 
   color: #fff;
 }
+
+.place__website_link:hover {
+  opacity: 0.8;
+}
+

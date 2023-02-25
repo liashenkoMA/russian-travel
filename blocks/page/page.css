@@ -2,4 +2,5 @@
   margin: 28px auto 24px;
 
   max-width: 1280px;
+  overflow: hidden;
 }

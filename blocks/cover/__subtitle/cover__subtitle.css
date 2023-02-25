@@ -10,3 +10,23 @@
   color: #fff;
   text-align: center;
 }
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 400px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .cover__subtitle {
+    max-width: 288px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -13,7 +13,7 @@
   .photo-grid {
     max-width: 928px;
     
-    grid-template-columns: 3, minmax(300px, 1fr);    
+    grid-template-columns: repeat(3, minmax(300px, 1fr));    
   }
 }
 
@@ -23,7 +23,7 @@
 
     padding: 88px 16px 0px 16px;
     
-    grid-template-columns: 2, minmax(352px, 1fr);    
+    grid-template-columns: repeat(2, minmax(352px, 1fr));    
   }
 }
 
@@ -33,7 +33,7 @@
 
     padding: 64px 16px 0px 16px;
     
-    grid-template-columns: 1, minmax(288px, 1fr);    
+    grid-template-columns: minmax(288px, 1fr);    
   }
 }
 
@@ -43,6 +43,6 @@
 
     padding: 64px 16px 0px 16px;
     
-    grid-template-columns: 1, minmax(288px, 1fr);    
+    grid-template-columns: minmax(288px, 1fr);    
   }
 }

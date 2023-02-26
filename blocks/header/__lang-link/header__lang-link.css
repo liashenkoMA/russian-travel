@@ -6,15 +6,7 @@
   color: #fff;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
-  .header__lang-link {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 767px) {
   .header__lang-link {
     font-weight: 400;
     font-size: 18px;

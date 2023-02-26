@@ -16,22 +16,8 @@
   opacity: 0.8;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .footer__link {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-  }
-
-  .footer__link:nth-child(n+1) {
-    display: block;
-    padding-top: 32px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 424px) {
-  .footer__link {
-    font-weight: 400;
     font-size: 24px;
     line-height: 24px;
   }

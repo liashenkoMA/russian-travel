@@ -19,19 +19,11 @@
 @media (min-width: 425px) and (max-width: 767px) {
   .intro__text {
     max-width: 400px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
   }
 }
 
 @media (min-width: 320px) and (max-width: 424px) {
   .intro__text {
     max-width: 288px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
   }
 }

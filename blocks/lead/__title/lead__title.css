@@ -11,21 +11,10 @@
   text-align: center;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead__title {
     max-width: 288px;
 
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 44px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 424px) {
-  .lead__title {
-    max-width: 288px;
-
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
   }

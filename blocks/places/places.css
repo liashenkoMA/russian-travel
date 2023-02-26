@@ -7,15 +7,13 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .places {
-    padding: 92px 0px;
-  
     max-width: 928px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .places {
-    padding: 88px 0px;
+    padding: 88px 0px 90px 0px;
   
     max-width: 720px;
   }

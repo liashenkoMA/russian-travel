@@ -16,4 +16,8 @@
   .place__paragraph {
     font-size: 16px;
   }
+
+  .place__paragraph:nth-child(even) {
+    padding-top: 25px;
+  }
 }

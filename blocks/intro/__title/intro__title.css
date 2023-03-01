@@ -9,13 +9,13 @@
   color: #fff;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .intro__title {
     max-width: 720px;
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .intro__title {
     max-width: 400px;
 
@@ -24,11 +24,8 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 424px) {
   .intro__title {
     max-width: 288px;
-
-    font-size: 32px;
-    line-height: 35px;
   }
 }

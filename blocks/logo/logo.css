@@ -1,10 +1,4 @@
-@media (min-width: 425px) and (max-width: 767px) {
-  .logo {
-    width: 142px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 767px) {
   .logo {
     width: 142px;
   }

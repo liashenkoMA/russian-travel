@@ -9,34 +9,26 @@
   align-items: center;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .lead {
-    padding-top: 48px;
-
     max-width: 928px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .lead {
-    padding-top: 48px;
-
     max-width: 768px;
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead {
-    padding-top: 48px;
-
     max-width: 425px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 424px) {
   .lead {
-    padding-top: 48px;
-
     max-width: 320px;
   }
 }

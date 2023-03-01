@@ -11,20 +11,18 @@
   text-align: center;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .cover__subtitle {
     max-width: 400px;
+    padding-top: 16px;
 
     font-size: 14px;
     line-height: 16px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 424px) {
   .cover__subtitle {
     max-width: 288px;
-
-    font-size: 14px;
-    line-height: 16px;
   }
 }

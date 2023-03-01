@@ -14,7 +14,7 @@
   grid-column: 1;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .place__title {
     padding-right: 32px;
 
@@ -22,7 +22,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .place__title {
     padding-right: 28px;
 
@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .place__title {
     padding: 0 16px;
 
@@ -44,13 +44,8 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 424px) {
   .place__title {
-    padding: 0 16px;
-
     max-width: 288px;
-
-    font-size: 32px;
-    line-height: 35px;
   }
 }

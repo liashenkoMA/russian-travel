@@ -1,5 +1,6 @@
 .place__website-link {
-  padding-top: 12px;
+  margin-top: 12px;
+  width: fit-content;
 
   font-weight: 400;
   font-size: 18px;

@@ -5,13 +5,13 @@
   max-width: 984px;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .places {
     max-width: 928px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .places {
     padding: 88px 0px 90px 0px;
   
@@ -19,7 +19,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .places {
     padding: 64px 0px;
   
@@ -27,10 +27,8 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 424px) {
   .places {
-    padding: 64px 0px;
-  
     max-width: 320px;
   }
 }

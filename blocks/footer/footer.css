@@ -7,13 +7,13 @@
   justify-content: space-between;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .footer {
     max-width: 928px;
   }  
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .footer {
     padding-top: 88px;
 
@@ -21,7 +21,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .footer {
     padding-top: 64px;
     max-width: 400px;
@@ -31,12 +31,8 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media (max-width: 424px) {
   .footer {
-    padding-top: 64px;
     max-width: 288px;
-
-    display: flex;
-    flex-direction: column;
   }
 }

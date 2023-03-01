@@ -33,7 +33,8 @@
 
     padding: 64px 16px 0px 16px;
     
-    grid-template-columns: minmax(288px, 1fr);    
+    grid-template-columns: minmax(288px, 1fr);
+    gap: 12px;
   }
 }
 
